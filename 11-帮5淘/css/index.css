@@ -1,0 +1,322 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+body{width: 100%;height: 100%;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+/*nav开始*/
+.picture{width: 175px;height: 25px;float: right;margin-top: 7px;}
+
+.picture i{margin: 0 0 0 12px;display: inline-block;width: 25px;height: 25px;vertical-align: middle;background: url(../img/top/service_small.png) no-repeat;}
+
+.picture .flash{background-position-x: -25px}
+
+.picture .plane{background-position-x: -50px}
+
+.picture .money{background-position-x: -75px}
+/*nav结束*/
+
+/*content开始*/
+#content{width: 100%;height: 4350px;background: #f5f5f5;}
+
+
+/*banner开始*/
+#banner{width: 100%;height: 445px;}
+
+.bannercon{width: 1200px;height: 445px;margin: 0 auto;}
+
+.slideshow{width: 955px;height: 445px;float: left;overflow: hidden;position: relative;}
+
+.bannerright{width: 245px;height: 445px;float: left;background: white url(../img/slideshow/super-hot3.png) top center no-repeat;position: relative;}
+
+.hot{display: block;width: 100%;height: 210px;margin:auto;margin-top: 50px;background: white;}
+
+.hot img{width: 162px;height: 162px;border: 1px solid #ccc;display: inline-block;margin-left: 40px;margin-top: 20px;}
+
+.info{display: block;text-align: center;margin-top: -10px;padding: 0 10px;}
+
+.sub-title{height: 24px;overflow: hidden;font-size: 16px;font-weight: 700;color: #000;text-align: left;text-align: center;}
+
+.title{height: 21px;overflow: hidden;font-size: 14px;color: #333;text-align: center;}
+
+.prices-info{height: 60px;padding: 35px 0 0;position: relative;}
+
+.discount-info{margin: 0 5px 0 20px;color: #fff;font-size: 16px;line-height: 16px;padding: 7px 10px;background: #00abd6;}
+
+.stamps{margin: 0 10px 0 0;color: #fff;font-size: 16px;line-height: 16px;padding: 7px 10px;background: #fe689a;}
+
+.prices{position: absolute;right: 25px;bottom: 35px;text-align: center;margin-left: 10px;}
+
+.b5m-price{display: block;font-size: 28px;line-height: 32px;color: #fe689a;}
+
+.origin-price{display: block;font-size: 14px;line-height: 14px;color: #a1a1a1;text-decoration: line-through;}
+
+.dashed{border-bottom: 1px dotted #999;}
+
+.lxftime{z-index: 3;height: 44px;line-height: 44px;margin: 5px 0;text-align: center;font-style: normal;}
+
+i,em{font-style: normal;}
+
+.countdown span {color: #333;font-size: 14px;line-height: 22px;}
+
+#slide{width: 6685px;height: 445px;position: absolute;top:0;left: 0;}
+
+#slide li{float: left;}
+
+#btn{width: 150px;height: 14px;position: absolute;right: 10px;bottom: 20px;text-align: right;}
+
+#btn li{width: 14px;height: 14px;background: white;border-radius: 50%;float: left;margin-left: 8px;}
+
+#btn li.active{background: #fe689a;}
+/*banner结束*/
+
+/*timeLimit开始*/
+.timeLimit{width: 1200px;height: 350px;margin: auto;margin-top: 20px;border: 1px solid #ccc;padding: 10px 0;background: white;}
+
+.count{position: relative;margin-right: 13px;background: #f8f8f8 url(../img/slideshow/act-bg2.png) top center no-repeat;float: left;
+		margin-left: 10px;width: 225px;height: 350px;}
+
+.timeinfo{font-size: 32px;font-weight: 700;padding: 0;color: white;
+		text-align: center;margin-top: 30px;}
+
+.sub-info{margin-top: 20px;text-align: center;font-size: 14px;color: #fff;}
+
+.countdown-tip{position: absolute;top: 180px;font-size: 14px;color: #333;text-indent: 2em;}
+
+.countdown-tip span{color: red;}
+
+.timedown{position: absolute;top: 220px;width: 100%;text-align: center;
+		font-size: 14px;color: #333;z-index: 3;height: 44px;line-height: 44px;margin: 5px 0;}
+
+.timedown span{display: inline-block;width: 40px;height: 33px;border-radius: 2px;
+			background: black;color: white; font-size: 24px;font-weight: bold;vertical-align: middle;line-height: 33px;
+			border-radius: 3px;}
+.timedown em{font-size: 22px;font-weight: bold;vertical-align: middle;}
+
+.hd-toggle{position: absolute;left: 0;right: 0;bottom: 0;height: 32px;font-size: 0;}
+
+.btn-day{color: #fff;background: #fe689a;width: 112px;text-align: center;font-size: 14px;line-height: 32px;display: inline-block;}
+
+.btn-night{color: #fff;height: 100%;background: #56c8e0;width: 112px;text-align: center;font-size: 14px;line-height: 32px;display: inline-block;}
+
+.item{width: 225px;height: 350px;margin-left: 10px;float: left;position: relative;}
+
+.itemImg{width: 225px;height: 225px;display: inline-block;} 
+
+.img{width: 225px;height: 225px;}
+
+.itemTitle{padding: 0 18px;height: 28px;overflow: hidden;font-size: 16px;font-weight: 700;
+    	color: #000;line-height: 180%;display: inline-block;}
+
+.itemSub{padding: 0 18px;font-size: 14px;color: #333;line-height: 24px;height: 48px;
+    	overflow: hidden;}
+
+.itemPrice{padding-left: 18px;}
+
+.newPrice{display: block;font-size: 30px;line-height: 32px;color: #fe689a;}
+
+.oldPrice{display: block;font-size: 14px;line-height: 14px;color: #a1a1a1;text-decoration: line-through;}
+
+.buyNow{display: block;position: absolute;right: 18px;bottom: 0;width: 100px;height: 30px;
+    background: #fe689a;border-radius: 3px;text-align: center;line-height: 30px;
+    font-size: 16px;color: #fff;}
+/*timeLimit结束*/
+
+/*popular开始*/
+.popular{width: 1200px;height: 728px;margin:auto;margin-top: 25px;border: 1px solid #ccc; background: white;}
+
+.popularity{width: 830px;height: auto;float: left;padding: 15px 0 25px 30px;}
+
+.n-title,.p-title{border-bottom: 2px solid #fe689a;text-align: left;position: relative;}
+
+.n-title h2,.p-title h2{border-bottom: 4px solid #fe689a;font: 700 36px/normal "Microsoft YaHei";color: #ff5ca3;
+		display: inline-block;}
+
+.n-title ul,.n-title ul li,.p-title ul,.p-title ul li{display: inline-block;}
+
+.p-title ul,.n-title ul{position: absolute;bottom: 0;right: 0;}
+
+.p-title ul li,.n-title ul li{float: left;}
+
+.p-title .p-tab{background: #fe689a;color: #fff;}
+
+.p-title a,.n-title a{display: inline-block;background: white;color: dimgray;width: 100px;height: 40px;
+    font-size: 22px;font-family: "Microsoft YaHei";line-height: 40px;text-align: center;}
+
+.p-show{margin-top: 20px;position: relative;height: 576px;}
+
+.cosmetics{overflow: hidden;}
+
+.clothe{position: absolute;top: 0; left: 0;display: none;}
+
+.p-pro,.n-pro{width: 192px;height: 282px;float: left;margin: 3px;}
+
+.p-pro:hover,.n-pro:hover,.seeRight li a:hover,.litbrand a:hover{box-shadow: 2px 2px 2px 2px lightgray;}
+
+.pro-img{width: 192px;height: 192px;display: block;}
+
+.pro-img img{width: 90%;height: 90%;}
+
+.pro-title,.nro-title{padding: 0 12px;display: block;line-height: 16px;height: 32px;overflow: hidden;
+    color: #333;margin: 13px 0;font-size: 14px;}
+
+.pro-price,.nro-price{padding: 0 12px;}
+
+.psnPrice,.nsnPrice{margin-right: 10px;font: 12px/16px "Microsoft YaHei";color: #ed145b;}
+
+.psoPrice,.nsoPrice{color: #999;font: 10px/12px "Microsoft YaHei";text-decoration: line-through;}
+
+.p-link{text-align: center;}
+
+.p-link span{width: 15px;height: 15px;background: url(../img/popular/bigger.png) no-repeat;display: inline-block;
+		vertical-align: middle;}
+
+.l-content{padding: 0 23px;border-left: 1px solid #dadada;color: #ffadc8;font-size: 14px;
+	display: inline-block;font-weight: 700;}
+
+.popularBrand{width: 300px;overflow: hidden;border: 1px solid #ccc;float: left;margin: 8px 10px;padding-bottom: 4px;}
+
+.b-title h3{width: 210px;margin: 35px auto 42px;font-size: 23px;line-height: 23px;color: #ff5ca3;
+    display: block;text-align: center;}
+
+.line{width: 28px;height: 3px;background: #fe689a;margin: 0 2px;display: inline-block;vertical-align: middle;}
+
+.b-button{text-align: center;overflow: hidden;width: 100%;position: relative;}
+
+.lt,.gt{font-size: 38px;color: #7b7c7d;display: inline-block;font-weight: bolder;position: absolute;}
+
+.lt{left: 25px;top: 40px;}
+
+.gt{right: 25px;top: 40px;}
+
+.b-slide img{width: 190px; height: 118px;}
+
+.b-show{padding-left: 20px;text-align: left;margin-bottom: 20px;margin: 30px 0 0;overflow: hidden;}
+
+.b-pro{margin-bottom: 24px;width: auto;height: auto;}
+
+.pro-pic{width: 86px;height: 86px;display: inline-block;vertical-align: middle;}
+
+.proimg{width: 100%;height: 100%;}
+
+.pro-info{width: 156px;margin-left: 15px;vertical-align: bottom;display: inline-block;font-size: 14px;}
+
+.info-title{margin: 6px 0;display: block;line-height: 16px;height: 32px;overflow: hidden;
+    color: #333;}
+    
+.pn-price{color: #ed145b;font-size: 12px;line-height: 16px;margin-right: 8px;}
+
+.po-price{font-size: 10px;color: #999;text-decoration: line-through;}
+
+/*新品上线*/
+.newGoods{width: 1168px;height: 732px;margin: auto;background: white;border: 1px solid #dcdcdc;margin-top: 30px;
+		padding: 15px 0 25px 30px;}
+
+.gallary{height: 375px;margin-top: 20px;text-align: center;overflow: hidden;}
+
+.lwing{width: 252px;height: 100%;display: inline-block;margin-right: 22px;}
+
+.cbody{width: 573px;height: 100%;display: inline-block;margin-right: 22px;}
+
+.rwing{width: 255px;height: 100%;display: inline-block;margin-right: 22px;}
+
+.goodsList{margin-top: 20px;overflow: hidden;}
+
+.goodsList .n-pro{width: 183px;height: 263px;margin-left: 50px;}
+
+#n-pro{margin-left: 0;}
+
+.online .n-title{border-bottom: 2px solid #36dbd9}
+
+.online .n-title h2{color: #36dbd9;border-bottom: 4px solid #36dbd9}
+
+.online .n-title .p-tab{background: #36dbd9;color: #FFFFFF;}
+
+.nproimg{width: 183px;height: 183px;}
+
+.p-pro a:hover,.b-pro a:hover,.n-pro a:hover{color: #FE689A;}
+
+/*新品上线结束*/
+
+/*随便看看*/
+.haveLook{width: 1200px;height: 39px;margin: auto;margin-top: 15px;margin-bottom: 20px;border-bottom: 1px solid #000000;}
+
+.span{border-bottom: 4px solid #fe689a;font-size: 26px;color: #000;line-height: 36px;display: inline-block;font-weight: 700;}
+
+.spanInfo{font-size: 26px;margin-left: 15px;line-height: 36px;color: #999;display: inline-block;font-weight: 700;}
+
+.purchase{width: 1200px;margin: 0 auto;overflow: hidden;}
+
+.seeLeft{float: left;width: 167px;height: 680px;background: #fff;padding-bottom: 14px;}
+
+.seeTittle{margin-bottom: 1px;height: 55px;width: 100%;font-size: 18px;background: url(../img/havelook/seebg.jpg) no-repeat center;color: #fff;
+    text-align: center;line-height: 55px;cursor: pointer;font-weight: 400;}
+
+.seePic{width: 131px;height: auto;padding: 12px 18px;}
+
+.seePic a{width: 130px;height: 80px;font-size: 0;text-align: center;overflow: hidden;margin: 8px 0 0;}
+
+.seeLine{width: 165px;border: 1px dashed #999;margin: 10px 0 20px;}
+
+.seeLink a{display: inline-block;width: 131px;height: 22px;color: gray;font-size: 12px;line-height: 22px;
+    padding: 0px 18px;margin: 6px 0px 0px;}
+
+.seeLink a:hover{background: #FE689A;color: white;}
+
+.seeRight{width: 1030px;float: right;}
+
+.seeRight li{float: left;width: 212px;height: 338px;margin: 0 0 10px 10px;padding: 2px 16px 0;}
+
+.seeRight li img{width: 240px;height: 240px;}
+
+.seeRight li a{width: 240px;height: 338px;background: #fff;padding: 2px;display: inline-block;
+	color: #000;font-size: 14px;}
+
+.seeRight li a h4{font-size: 14px;width: 204px;padding: 10px 20px 0;line-height: 22px;height: 46px;overflow: hidden;}
+
+.seeRight li div{width: 204px;padding: 0 20px;}
+
+.seenewprice{font-size: 22px;color: #e30367;margin-right: 10px;}
+
+.seeoldprice{font-size: 14px;color: #bfc0c0;text-decoration: line-through;}
+
+/*品牌推荐*/
+.brandshow{width: 1200px;margin: auto;overflow: hidden;}
+
+.bigbrand{float: left;}
+
+.bigbrand a{width: 312px;height: 244px;background: #fff;display: inline-block;}
+
+.bigbrand a img{width: 312px;height: 244px}
+
+.litbrand{width: 888px;overflow: hidden;background: #f2f2f2;float: left;}
+
+.litbrand a{float: left;margin: 0 0 2px 2px;width: 146px;height: 80px;background: #fff;text-align: center;}
+
+.conbottom{width: 100%;height: 139px;text-align: center;}
+
+.footsercice{height: 60px;text-align: left;margin: 20px 35px;display: inline-block;}
+
+.footsercice i{background: url(../img/brandshow/services.png) no-repeat;width: 60px;height: 60px;display: inline-block;}
+
+.footsercice .fsure{background-position: 0 0;}
+
+.footsercice .fspeed{background-position: -59px 0;}
+
+.footsercice .fpromise{background-position: -118px 0;}
+
+.footsercice .fpay{background-position: -177px 0;}
+
+.foottitle{height: 100px;display: inline-block;vertical-align: middle;}
+
+.tit{font-size: 22px;color: #000;line-height: 26px;text-align: left;}
+
+.dec{font-size: 14px;color: #999;line-height: 18px;text-align: left;}
+
+.foothelp span{font-size: 14px;color: #666;}
+
+.foothelp a{color: #666}
+
+.foothelp .red{color: #ed145b;}
+
+.foothelp em{margin: 0 10px;font-size: 12px;font-style: normal;font-weight: 400;}

@@ -1,0 +1,172 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;outline: none;}
+body{width: 100%;height: 100%;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+/*top开始*/
+#top{width: 100%;height: 33px;background: #f2f2f2;}
+#top a:hover{color: orangered;}
+.topCon{width: 1200px;height: 33px;margin: 0 auto;}
+.litLogo a{width: 30%;height: 33px;line-height: 33px;color: #999;display: inline-block;font-size: 12px;float: left;}
+.litLogo a span{background:url(../img/top/slogen.png) ;width: 19px;height: 23px;display: inline-block;margin-right: 8px;margin-top: 3px;vertical-align: top;}
+.login{width: 400px;height: 33px;float: right;line-height: 33px;text-align: right;}
+.login a{font-size: 12px;color: #999;height: 29px;line-height: 25px;display: inline-block;padding:0 5px;vertical-align: top;}
+.login .user,.login .register,.login .phone{vertical-align: middle;}
+.login .register img{width: 16px; height: 16px;vertical-align: middle;margin-top: -4px;display: inline-block;padding: 0;}
+.login img{width: 22px;height: 22px;padding: 5px 0 0 0;}
+.login .loginWeibo{margin-right: 10px;}
+.login span{display: inline-block;width:16px ;height: 16px;background: url(../img/top/手机.png);margin-top: -4px;
+    vertical-align: middle;}
+#userName img{width: 60px;height: 35px;padding-top: 0px;margin-top: -6px;}
+.code{display: none;width: 300px;height: 330px;position: absolute;top:33px;right: 10%;z-index: 10;}
+.message{width: 290px;height: 400px;background: white;border: 1px solid #D8D8D8;position: absolute;top: 33px;right: 13%;z-index: 999;font-size: 12px;color: #999999;display: none;}
+.message h2{width: 250px;height: 30px;margin: auto;text-align: center;font-size: 20px;color: orangered;border-bottom: 1px solid #D8D8D8;margin-top: 10px;}
+.message img{position: absolute;left: 60px;top: 150px;}
+.message span{display: inline-block;position: absolute;left: 150px;top: 200px;}
+.message a{width: 120px;height: 30px;background: orangered;color: white;font-size: 16px;text-align: center;line-height: 30px;display: inline-block;position: absolute;bottom: 10px;left: 85px;border-radius: 3px;}
+#top .message a:hover{color: white;}
+
+/*head开始*/
+.shopHead{margin: auto;margin-top: 25px;margin-bottom:20px;width: 1200px;height: 152px;}
+.carttitle{width: 100%;border-bottom: 2px solid #ddd;padding-bottom: 10px;height: 75px;}
+.logo{float: left;display: block;}
+.logo img{width: 141px;height: 75px;}
+.mail{float: left;display: block;margin-left: 20px;}
+.icons{margin-top: 20px;float: right;width: 30%;height: 29px;}
+.icons div{cursor: pointer;width: 66px;height: 29px;line-height: 29px;margin-left: 10px;padding-left: 36px;
+    color: #999;font-size: 12px;display: inline-block;vertical-align: middle;}
+.header-icon1{background: url(../img/shopcart/cart_min_z.png) no-repeat;background-position: -169px -14px;position: relative;}
+.header-icon2{background: url(../img/shopcart/cart_min_z.png) no-repeat;background-position: -169px -46px;position: relative;}
+.header-icon3{background: url(../img/shopcart/cart_min_z.png) no-repeat;background-position: -169px -110px;position: relative;}
+.carttitle .icons p{display: none;position: absolute;background: #fff7f3;border: 1px solid #ff8e00;border-radius: 3px;
+    padding: 3px 5px;margin-top: 7px;z-index: 51;left: -100px;overflow: hidden;z-index: 50;}
+.carttitle .icons .header-icon1 p{width: 352px;}
+.carttitle .icons .header-icon2 p{width: 275px;left: -95px;}
+.carttitle .icons .header-icon3 p{width: 190px;}
+.my-cart{font-size: 20px;line-height: 38px;float: left;margin-top: 15px;font-weight: 400;}
+.order-due-tip{display: inline-block;vertical-align: middle;border: 1px solid #ffde86;font-size: 12px;
+    line-height: 22px;padding: 0 8px;margin-bottom: 4px;}
+.clock{display: inline-block;width: 14px;height:14px;background: url(../img/shopcart/cart_min_z.png) no-repeat;background-position: -184px -531px;
+	vertical-align: middle;padding-bottom: 5px;}
+.due-day{color: #ff7a4d;font-weight: 700;}
+.cart-content{position: relative;float: right;width: auto;margin-top: 20px;
+    background: url(../img/shopcart/storyline.png) no-repeat;}
+.cart-content span{width: 142px;height: 22px;padding-top: 15px;display: block;float: left;
+    line-height: 21px;margin: 8px 0 0;position: relative;color: #fff;text-align: center;
+    font-family: "Microsoft YaHei";}
+.cart-content .porces3{width: 130px;}  
+.ziticolo1{color: #ff5e00;font-size: 12px;}
+.porces2 .ziticolo1,.porces3 .ziticolo1{color: #999;}
+.cart-no-list{width: 1200px;height: 280px;margin: auto;border: 1px solid #ddd;box-shadow: 0 0 1px 1px #e6e6e5;border-radius: 4px;
+    border-top: 7px solid #f7caa3;margin-bottom: 110px;}
+.cart-no-list p{margin-top: 130px;line-height: 20px;font-size: 20px;font-family: "\5FAE\8F6F\96C5\9ED1";
+    color: #666;text-align: center;font-weight: bold;}
+/*head结束*/
+
+/*cart-main开始*/
+.major{width: 1200px;
+    margin: auto;
+    background: #f8f8f8;
+    height: 180px;}
+.cart-thead{height: 40px;border-top: 3px solid #e4e4e4;width: 1200px;margin: auto;}
+.check-all{display: inline-block;vertical-align: middle;width: 35px;margin: 13px 0;line-height: 14px;
+    text-align: center;}
+.icon-checkbox{background: url(../img/shopcart/cart_min_z.png) no-repeat;background-position: -184px -142px;width: 14px;
+    height: 14px;cursor: pointer;display: inline-block;}
+.icon-checkbox-change{background: url(../img/shopcart/cart_min_z.png) no-repeat;background-position: -184px -159px;width: 14px;
+    height: 14px;cursor: pointer;display: inline-block;}    
+.cart-thead span{display: inline-block;height: 40px;line-height: 40px;vertical-align: middle;font-size: 12px;text-align: center;}
+.cart-thead .all{width: 34px;text-align: left;}
+.cart-thead .name{width: 311px;}
+.cart-thead .postage{width: 180px;}
+.cart-thead .price{width: 130px;margin-left: 5px;}
+.cart-thead .quantity{width: 120px;}
+.cart-thead .amount{width: 165px;}
+.cart-thead .operation{width: 130px;}
+.cartMain{width: 1198px;margin: auto;padding-bottom: 10px;border: 1px solid #ebe7e8;position: relative;
+    background: #f8f8f8;margin-bottom: 20px;}
+.carth3{height: 35px;line-height: 35px;vertical-align: middle;font-family: "Microsoft YaHei";font-size: 14px;
+    font-weight: 700;}
+.check-all-items{margin: 0 10px;}
+.cart-items{width: 1200px;margin: auto;position: relative;background: #f8f8f8;}
+.cart-items-content{padding: 15px 0 18px;border-bottom: 1px dashed #dadada;width: 1140px;margin-left: 30px;
+    background: white;font-size: 0;overflow: hidden;}
+.cart-items-content li{font-size: 12px;display: inline-block;vertical-align: middle;text-align: center;}
+.check-box{width: 30px;}
+.items-pic{width: 58px;border: 1px solid #e4e4e4;}
+.items-name{width: 185px;line-height: 20px;padding: 0 25px 0 10px;}
+.items-postage{margin-left: 18px;width: 201px;min-height: 16px;padding: 0 10px;line-height: 20px;
+    text-overflow: ellipsis;color: #999;}
+.items-price{width: 65px;padding: 0 10px 0 15px;font-family: Tahoma;text-align: center;
+    font-weight: 700;}
+.items-quantity{width: 100px;margin-left: 35px;text-align: center;position: relative;}
+.items-amount{text-align: center;width: 176px;color: #FF7A4D;}
+.items-operations{width: 116px;text-align: center;margin-left: 4px;cursor: pointer;}
+.cart-foot-select{margin:auto;margin-top: 20px;padding-top: 5px;width: 1200px;height: 50px;bottom: 0;background-color: #f0f0f0;
+    text-align: right;vertical-align: baseline;}
+.f-left{float: left;line-height: 45px;font-size: 12px;color: #000;}
+.checkd-all{display: inline-block;vertical-align: middle;width: 35px;margin: 13px 0;
+    line-height: 14px;text-align: center;margin-right: 6px;}
+.remove-goods-btn{display: inline-block;margin-left: 26px;float: left;margin-top: 12px;font-size: 12px;color: #000;}
+/*结算*/
+.cart-foot{width: 1200px;margin:auto;margin-top: 20px;padding-top: 5px;height: 55px;
+    bottom: 0;background-color: #f0f0f0;text-align: right;vertical-align: baseline;margin-bottom: 20px;}
+.summary-box{display: inline-block;vertical-align: middle;position: relative;}
+.rpad{display: inline-block;vertical-align: middle;width: 245px;margin: 0 10px;text-align: center;
+    border-bottom: 1px dotted #ccc;}
+.total-select-amount{font-weight: 700;color: #e81818;}
+.rpad-sel{display: inline-block;vertical-align: middle;margin-right: 12px;}
+.total-money{display: block;text-align: left;float: left;}
+.size24{color: #ed4e4e;position: relative;top: 2px;min-width: 90px;font-weight: 700;font-size: 14px;display: block;margin-top: -6px;float: left;}
+#price_total{font-size: 22px;color: #ed4e4e;font-weight: 700;}
+.btn-orange{width: 130px;line-height: 50px;margin-right: 5px;border-radius: 5px;display: inline-block;vertical-align: middle;background-color: #ff7a4d;
+    font-size: 18px;color: #FFF;text-shadow: 1px 1px #c24000;text-align: center;cursor: pointer;}
+
+/*footer*/
+#footer{background: #f7f7f7;text-align: center;padding: 30px 0 10px;line-height: 25px;}
+.footer-links{text-align: center;line-height: 25px}
+.fitem{margin: 0 10px;color: #666;text-align: center;line-height: 25px;font-size: 12px;}
+.footer-copyright{color: #999;font-size: 12px;}
+.footer-public{display: inline-block;vertical-align: middle;}
+
+/*右侧栏*/
+.rightbar{top: 0;right: 0;position: fixed;z-index: 210;width: 36px;height: 100%;background-color: #333;}
+.barlist{position: absolute;top: 45%;margin-top: -150px;}
+.bar-item{float: left;width: 36px;height: 36px;margin: 4px 0;background-color: #fd4f00;position: relative;cursor: pointer;}
+.bar-item-service{width: 36px;height: 26px;padding: 5px 0;background: #fd4f00 url(../img/top/right_bar_icons.png) no-repeat;background-position: center 8px;}
+.bar-service{top: 0;left: -200px;position: absolute;opacity: 0;display: none;width: 116px;min-height: 100%;
+    font: 14px/36px "Microsoft YaHei";text-align: center;color: #fff;background-color: #7b8d98;}
+.rightbar span{content: "";position: absolute;top: 12px;right: -11px;width: 0;overflow: hidden;border: 6px solid #7b8d98;border-color: transparent transparent transparent #7b8d98;}
+.bar-item-weixin{width: 36px;height: 26px;padding: 5px 0;background: #fd4f00 url(../img/top/right_bar_icons.png) no-repeat;background-position: center -29px;}
+.bar-weixin{top: 0;left: -200px;position: absolute;opacity: 0;display: none;width: 116px;min-height: 100%;
+    font: 14px/36px "Microsoft YaHei";text-align: center;color: #fff;background-color: #7b8d98;}
+.weixin-code{height: 116px;width: 116px;background: url(../img/top/b5m_weixin.png) no-repeat scroll;}
+.mobile-text-bg{color: #fff;background: #FF5E00;font-size: 12px;}
+.bar-item-cart{float: left;width: 36px;height: auto;margin: 4px 0;background-color: #fd4f00;position: relative;cursor: pointer;}
+.bar-item-cart-logo{width: 36px;height: 26px;padding: 5px 0;background: #fd4f00 url(../img/top/right_bar_icons.png) no-repeat;background-position: center -67px;}
+.bar-item-txt{width: 16px;height: auto;margin: 0 auto 5px;color: #fff;text-align: center;font-size: 12px;}
+.cart-num{display: block;text-align: center;font-weight: 700;font-style: normal;}
+.bar-item-record{width: 36px;height: 26px;padding: 5px 0;background: #fd4f00 url(../img/top/right_bar_icons.png) no-repeat;background-position: center -104px;}
+.bar-item-tip{top: 0;left: -200px;position: absolute;opacity: 0;display: none;width: 116px;min-height: 100%;
+    font: 14px/36px "Microsoft YaHei";text-align: center;color: #fff;background-color: #7b8d98;}
+.bar-item-code{width: 36px;height: 26px;padding: 5px 0;background: #fd4f00 url(../img/top/right_bar_icons.png) no-repeat;background-position: center -140px;}
+.bar-app-code{height: 116px;width: 116px;background: url(../img/top/b5m_app.png) no-repeat scroll;}
+.bar-item-top{position: fixed;bottom: 5px;float: left;width: 36px;height: auto;margin: 4px 0;background-color: #fd4f00;cursor: pointer;}
+.bar-item-top-logo{width: 36px;height: 26px;padding: 5px 0;background: #fd4f00 url(../img/top/right_bar_icons.png) no-repeat;background-position: center -176px;}
+
+/*结算*/
+.successbox{background: gray;opacity: 0.3;width: 100%;height: 100%;position: absolute;top: 0;left: 0;display: none;}
+.success{width: 500px;height: 500px;position: absolute;top:30%;left: 40%;display: none;}
+.success span{font-size: 40px;color: orangered;font-weight: bold;}
+.con-buy{background: orangered;display: block;width: 120px;height: 40px;text-align: center;line-height: 40px;color: white;font-size: 16px;font-weight: bold;border-radius: 3px;margin-top: 30px;}
+.close{background: white;display: block;width: 120px;height: 40px;text-align: center;line-height: 40px;color: black;font-size: 16px;font-weight: bold;border-radius: 3px;position: absolute;top: 170px;left: 150px;}
+
+
+
+
+
+
+
+
+

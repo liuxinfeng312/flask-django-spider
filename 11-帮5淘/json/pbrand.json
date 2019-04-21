@@ -1,0 +1,58 @@
+[
+	{
+		"img" : "img/popular/brand1.png",
+		"title" : "韩国 LANEIGE 兰芝水凝清盈精华水200ml/瓶  ",
+		"psnPrice" : "￥200",
+		"psoPrice" : "￥330"
+	},
+	
+	{
+		"img" : "img/popular/brand2.png",
+		"title" : "韩国 LANEIGE 兰芝雪润无暇气垫粉凝霜15g/盒*2",
+		"psnPrice" : "￥232",
+		"psoPrice" : "￥335"
+	},
+	
+	{
+		"img" : "img/popular/brand3.png",
+		"title" : "韩国 LANGIGE 兰芝夜间修护锁水免洗睡眠面膜70ml/罐",
+		"psnPrice" : "￥195",
+		"psoPrice" : "￥289"
+	},
+	
+	{
+		"img" : "img/popular/brand4.png",
+		"title" : "韩国 LANEIGE 兰芝夜间修护紧实面膜50ml/罐",
+		"psnPrice" : "￥209",
+		"psoPrice" : "￥229"
+	},
+	
+	{
+		"img" : "img/popular/brand5.png",
+		"title" : "韩国 innisfree 悦诗风吟真萃面膜10片/盒",
+		"psnPrice" : "￥75",
+		"psoPrice" : "￥159"
+	},
+	
+	{
+		"img" : "img/popular/brand6.png",
+		"title" : "韩国 Innisfree 悦诗风吟绿茶籽精萃水分眼部菁华霜30ml/瓶",
+		"psnPrice" : "￥153",
+		"psoPrice" : "￥190"
+	},
+	
+	{
+		"img" : "img/popular/brand7.png",
+		"title" : "韩国 Innisfree 悦诗风吟油菜花蜜润唇膏3.5g/支",
+		"psnPrice" : "￥60",
+		"psoPrice" : "￥84"
+	},
+	
+	{
+		"img" : "img/popular/brand8.png",
+		"title" : "韩国 innisfree 悦诗风吟真萃面膜10片/盒",
+		"psnPrice" : "￥69",
+		"psoPrice" : "￥115"
+	}
+
+]

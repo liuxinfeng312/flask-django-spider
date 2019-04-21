@@ -1,0 +1,38 @@
+[
+	{
+		"img" : "img/timeLImit/time1.png",
+		"itemTitle" :"一支维他命C的焕颜术",
+		"itemSub" : "韩国 it's skin 伊思维他命C洗面奶150ml/支",
+		"newPrice" : "￥54",
+		"oldPrice" : "￥89"
+		
+	},
+	
+	{
+		"img" : "img/timeLImit/time2.png",
+		"itemTitle" :"春雨家族 黑色来袭",
+		"itemSub" : "韩国 Papa recipe 春雨黑膜竹炭蜂蜜面膜10片/盒",
+		"newPrice" : "￥43",
+		"oldPrice" : "￥93"
+		
+	},
+	
+	{
+		"img" : "img/timeLImit/time3.png",
+		"itemTitle" :"温和也有强大去污力",
+		"itemSub" : "日本 Mitsuei 三津荣洗洁精橘子味600ml/瓶",
+		"newPrice" : "￥79",
+		"oldPrice" : "￥263"
+		
+	},
+	
+	{
+		"img" : "img/timeLImit/time4.png",
+		"itemTitle" :"缔造自然双眼皮",
+		"itemSub" : "日本 Daiso 大创肤色蕾丝网纹哑光双眼皮贴标准型64枚/袋*2",
+		"newPrice" : "￥103",
+		"oldPrice" : "￥993"
+		
+	}
+
+]

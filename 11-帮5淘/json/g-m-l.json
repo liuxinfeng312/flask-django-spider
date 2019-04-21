@@ -1,0 +1,33 @@
+[
+
+	{
+		"img" : "img/gooddetail/major-l1.jpg",
+		"content" : "韩国 Skinfood 思亲肤番茄臻彩化妆水180ml/瓶 ",
+		"price" : "¥89"
+	},
+	
+	{
+		"img" : "img/gooddetail/major-l2.jpg",
+		"content" : "韩国 YADAH 抗痘爽肤水100ml/瓶 ",
+		"price" : "¥152"
+	},
+	
+	{
+		"img" : "img/gooddetail/major-l3.jpg",
+		"content" : "韩国 LANEIGE 兰芝臻白净透细肤水120ml/瓶 ",
+		"price" : "¥339"
+	},
+	
+	{
+		"img" : "img/gooddetail/major-l4.jpg",
+		"content" : "韩国 Sulwhasoo 雪花秀滋晶雪肤亮白水125ml/瓶 ",
+		"price" : "¥339"
+	},
+	
+	{
+		"img" : "img/gooddetail/major-l5.jpg",
+		"content" : "韩国 Sulwhasoo 雪花秀滋阴平衡保湿水125ml/瓶 ",
+		"price" : "¥369"
+	}
+	
+]

@@ -1,0 +1,33 @@
+[
+	{
+		"img" : "img/slideshow/slide1.png",
+		"id" : "slide1"
+	},
+	
+	{
+		"img" : "img/slideshow/slide2.png",
+		"id" : "slide2"
+	},
+	
+	{
+		"img" : "img/slideshow/slide3.png",
+		"id" : "slide3"
+	},
+	
+	{
+		"img" : "img/slideshow/slide4.png",
+		"id" : "slide4"
+	},
+	
+	{
+		"img" : "img/slideshow/slide5.png",
+		"id" : "slide5"
+	},
+	
+	{
+		"img" : "img/slideshow/slide6.png",
+		"id" : "slide6"
+	}
+	
+
+]

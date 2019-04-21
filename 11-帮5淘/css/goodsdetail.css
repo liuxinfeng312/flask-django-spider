@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+#details{width: 100%;margin: auto;overflow: hidden;background-color:#F5F5F5;}
+
+.d-center{width: 1200px;margin: auto;overflow: hidden;}
+
+.d-title{padding: 10px 0;width: 1200px;margin: auto;}
+
+.d-title a{color: black;font-size: 12px;}
+
+.d-title span{color: #666;font-size: 12px;}
+
+.d-title a:hover{color: #ED145B;text-decoration: underline;}
+
+.d-center{width: 1200px;margin: auto;overflow: hidden;}
+/*商品选择*/
+.first-view{width: 1200px;overflow: hidden;}
+
+.left-view{width: 990px;background: white;float: left;height: 610px;}
+
+.right-img{width: 148px;height: 148px;display: inline-block;vertical-align: middle;text-align: center;margin: 10px auto;margin-left: 24px;}
+
+.r-img-d{position: absolute;top:148px;left: 7px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;line-height: 20px;
+    padding-left: 4px;width: 180px;height: 20px;background-color: #DDDDDD;
+    color: #fff;font-size: 12px;text-align: center;display: none;}
+
+.price{text-align: center;font-size: 12px;}
+
+#smallArea{width: 194px;height: 194px;}
+
+.right-view{width: 200px;height: 610px;background: white;float: left;margin-left: 10px;}
+
+.gallary{float: left;width: 430px;position: relative;margin-top: 20px;}
+
+.bg-img{margin-left: 20px;height: 408px;border: 1px solid #e7e7e7;}
+
+.fixpic{display: block;width: 70px;height: 70px;top: 0;right: 2px;position: absolute;
+    z-index: 1;background: url(../img/gooddetail/korea-direct-mail.png) 0 0 no-repeat;background-size: 58px;}
+
+.sm-img{height: 61px;padding-left: 2px;margin: 20px 0 20px 20px;}
+
+.prev{color: #f0f0f0;position: relative;width: 23px;height: 60px;border-radius: 3px;
+    text-align: center;line-height: 57px;border: 1px solid #F0F0F0;margin: -1px;display: block;
+    font-weight: 700;font-size: 30px;float: left;}
+
+.prev:hover,.next:hover{color: dimgray;border-color: darkgray}
+
+.next{color: #f0f0f0;position: relative;width: 23px;height: 60px;border-radius: 3px;
+    text-align: center;line-height: 57px;border: 1px solid #F0F0F0;margin: -1px;display: block;
+    font-weight: 700;font-size: 30px;float: left;}
+
+.sm-show{overflow: hidden;text-align: left;font-size: 0;height: 65px;width: 360px;float: left;}
+
+.show-inner{width: 130px;padding: 0 3px;overflow: hidden;}
+
+.show-inner p{width: 59px;height: 59px;border: 2px solid #fff;display: inline-block;}
+
+.show-inner p img{width: 59px;height: 59px;}
+
+/*.show-inner p:hover{border: 2px solid #f90;}*/
+.show-inner .pactive{border: 2px solid #f90;}
+
+.collection{margin: 0 6px 0 16px;width: 13px;height: 11px;display: inline-block;vertical-align: middle;
+    background: url(../img/gooddetail/icon-unfavo.png) center center no-repeat;cursor: pointer;}
+
+.imggroup p{margin-top: -1px;display: inline-block;font-size: 12px;}
+
+.share{margin: 0 6px 0 16px;width: 14px;height: 14px;display: inline-block;vertical-align: middle;
+    background: url(../img/gooddetail/icon-unshare.png) center center no-repeat;cursor: pointer;}
+
+.sharebox{display: inline-block;}
+
+.sharebox span{display: inline-block;margin-right: 6px;width: 19px;height: 19px;
+	background: no-repeat;cursor: pointer;vertical-align: middle;}
+
+.sharebox .sina{background: url(../img/gooddetail/icon-sina.png);}
+
+.sharebox .weibo{background: url(../img/gooddetail/icon-weibo.png);}
+
+.sharebox .weixin{background: url(../img/gooddetail/icon-weixin.png);}
+
+.detail-info{float: left;width: 515px;padding: 15px 0 15px 20px;}
+
+.goodsinfo{position: relative;}
+
+.goodsinfo h1{font: 18px/28px 'microsoft yahei';color: #000;width: 510px;max-height: 60px;}
+
+.korean{float: left;width: 50px;height: 38px;margin: 6px 10px 0 0;}
+
+.goodsinfo span{color: #e50053;}
+
+.describe{color: #676767;font-size: 12px;line-height: 22px;width: 468px;height: 66px;}
+
+.price-line{width: 500px;line-height: 20px;font-size: 12px;margin-top: 20px;}
+
+.price-line span{color: #666666;display: inline-block;margin-left: 10px;line-height: 32px;text-align: left;
+    vertical-align: initial;float: left;}
+
+.price-line .singal{color: #e81818;font-size: 25px;font-weight: 700;margin-left: 45px;}
+
+.goodsprice{width: 100%;margin-left: 10px;display: inline-block;position: relative;}
+
+.goodsprice .newPrice{margin:0px;color: #e81818;font-size: 25px;font-weight: 700;}
+
+.goodsprice .oldPrice{margin-left: 10px;padding-top: 8px;line-height: 24px;text-decoration: line-through;}
+
+.send{position: relative;width: 490px;margin-left: 10px;line-height: 20px;}
+
+.send .address{margin-left: 48px;}
+
+.rev-title{margin: 0 3px 0 21px;width: 60px;line-height: 24px;text-align: left;
+	display: inline-block;font-size: 12px;color: #666;}
+
+.rev-info{display: inline-block;width: 385px;font-size: 12px;color: #666;}
+
+.sku-item{margin-top: 10px;position: relative;}
+
+.sku-title{line-height: 16px;margin: 0 5px 0 20px;width: 60px;
+    text-align: left;color: #666;display: inline-block;font-size: 12px;}
+
+.sku-opt{text-align: left;width: 65px;height: 35px;display: inline-block;}
+
+.sku-selected{height: 28px;padding: 0 10px;margin-right: 10px;line-height: 28px;border: 1px solid #dcdcdc;
+    text-align: center;color: #666;margin-bottom: 5px;display: inline-block;border: 1px solid #f36;background: url(../img/gooddetail/details-true-icon.png) bottom right no-repeat;}
+
+.goodnum{padding-left: 4px;margin: 15px 0;position: relative;font-size: 12px;}
+
+.g-title{margin: 0 13px 0 18px;width: 60px;line-height: 24px;text-align: left;color: #666;
+	display: inline-block;float: left;font-size: 12px;}
+
+.decrease{color: #eee;cursor: not-allowed;border: 1px solid #eee;    width: 22px;    font-weight: 900;height: 24px;
+    line-height: 24px;text-align: center;font-size: 14px;display: inline-block;float: left;}
+
+.num{display: inline-block;vertical-align: middle;width: 46px;height: 24px;
+    line-height: 24px;text-align: center;font-size: 14px;color: #666;border: 0;
+    border-top: 1px solid #d8d8d8;border-bottom: 1px solid #d8d8d8;float: left;}
+
+.add{margin-right: 8px;border: 1px solid #dedede;width: 22px;color: #000;
+    font-weight: 900;height: 24px;line-height: 24px;text-align: center;font-size: 14px;display: inline-block;}
+
+.goodnum span{display: inline-block;font-style: normal;color: #999;font-size: 12px;}
+
+.stock{font-style: normal;}
+
+.sales-num{line-height: 32px;color: #666;font-size: 12px;position: relative;}
+
+.s-title{margin: 0 13px 0 23px;width: 60px;line-height: 32px;text-align: left;color: #666;
+	display: inline-block;float: left;font-size: 12px;}
+
+.sales-num span{color: #ff3467;font-size: 18px;font-weight: 700;}
+
+.select{margin-bottom: 15px;margin-left: 108px;font-size: 12px;color: #666;}
+
+.select span{margin-left: 12px;color: #f90;}
+
+.btn-line{width: 500px;position: relative;}
+
+.btn-buy{color: #ff3267;background: #fff;border: 1px solid #ff3267;margin: 0 20px 0 26px;font-size: 18px;border-radius: 3px;
+    width: 150px;height: 40px;font: 400 18px "Microsoft YaHei";line-height: 40px;
+    text-align: center;display: inline-block;}
+
+.btn-cart{color: #fff;background: #ff3267;border: 1px solid #ff3267;font-size: 18px;border-radius: 3px;
+    width: 150px;height: 40px;font: 400 18px "Microsoft YaHei";line-height: 40px;
+    text-align: center;display: inline-block;}
+
+.phoneapp{display: inline-block;text-align: center;width: 94px;height: 134px;position: absolute;right: 0;bottom: 0;}
+
+.searchme{text-align: center;width: 100%;height: 40px;}
+
+.searchme span{color: #000;font-size: 12px;}
+
+.phonecode{width: 85px;height: 85px;padding: 5px;border: 1px solid #ddd;background: #fff;}
+
+.phonecode img{width: 100%;height: 100%;}
+
+.right-title{margin:0 15px;width: 200px;font-size: 12px;color: #8C8C8C;margin-top: 15px;}
+
+.fresh{width: 20px;height: 16px;float: right;background: url(../img/gooddetail/icon-change.png);display: inline-block;
+    vertical-align: middle;margin-right: 25px;margin-top: -3px;}
+
+.right-view ul{width: 200px;height: 395px;}
+
+.right-view ul li{position: relative;}
+
+.right-ad img{width: 200px;height: 187px;}
+
+.msg-info{height: 80px;margin-top: 25px;background:url(../img/gooddetail/msg-info.png) center center no-repeat;
+    margin-bottom: 10px;}
+
+/*商品主体*/
+/*主题左侧*/
+.d-major{width: 1200px;margin-top: 10px;overflow: hidden;}
+
+.major-l{width: 258px;float: left;border: 1px solid #e0e0e0;}
+
+.tit{background: #ff3267;width: 258px;height: 34px;font-size: 20px;font-weight: 700;color: #FFF;line-height: 34px;
+    font-family: "microsoft yahei";text-align: center;}
+
+.product{background: #fff;padding: 10px 0;height: 1390px;}
+
+.productA{display: block;width: 200px;margin: 10px auto 20px;}
+
+.productImg{width: 200px;height: 200px;}
+
+.productTitle{font-size: 12px;color: #333;line-height: 16px;height: 32px;}
+
+.productTitle:hover{color: #ff3163;}
+
+.productPrice{font-size: 16px;color: #ff3163;}
+/*主题右侧*/
+.major-r{float: right;width: 924px;border: 1px solid #e0e0e0;background: #fff;}
+
+.major-tab{height: 40px;background-color: #fff;position: relative;overflow: hidden;}
+
+.major-tab a{float: left;padding: 0 20px;color: #333;height: 40px;line-height: 40px;
+    font-family: "Microsoft YaHei";font-size: 16px;background-color: #f3f3f3;}
+
+.major-tab .curr{background-color: #fff;color: #ed145b;border-top: 2px solid #ed145b;height: 38px;}
+
+.product-m{background-color: #fff;padding-top: 30px;overflow: hidden;}
+
+.product-t{background: url(../img/gooddetail/detail-title-line.png) no-repeat;color: #FFF;
+    height: 29px;font-size: 14px;margin-left: 25px;padding-left: 25px;font-weight: 400;}
+
+.parmas{text-align: center;font-family: "microsoft yahei";margin-top: 15px;}
+
+.parmasImg{display: inline-block;vertical-align: middle;width: 250px;height: 250px;
+    margin-right: 70px;}
+
+.parmasImg img{width: 250px;height: 250px;}  
+
+.parmasList{display: inline-block;text-align: left;font-size: 16px;vertical-align: top;
+    margin-top: 30px;width: 430px;}  
+
+.parmasList li{padding-bottom: 5px;margin-bottom: 5px;border-bottom: 1px dashed #666;width: 430px;}
+
+.p-m-ad{margin-bottom: 10px;}
+
+.p-m-ad img{width: 874px;}
+
+.p-m-ad,.show-content{text-align: center;}
+
+.content-box{margin-top: 20px;overflow: hidden;padding: 0 20px 0 25px;}
+
+.content-bar{border: 1px solid #dcdcdc;background-color: #f9f9f9;overflow: hidden;}
+
+.content-bar li{float: left;width: 132px;height: 42px;line-height: 42px;text-align: center;
+    font-size: 14px;cursor: pointer;}
+
+.content-bar .baractive{width: 140px;background-color: #ed145b;border-top: 1px solid #ed145b;border-bottom: 1px solid #ed145b;
+    margin-top: -1px;margin-bottom: -1px;color: white;}
+
+.content-info{padding-left: 28px;}
+
+.user-content{margin-bottom: 19px;display: inline-block;vertical-align: middle;width: 100%;}
+
+.username{width: 55px;height: 100%;float: left;line-height: 14px;margin-top: 15px;padding-right: 47px;
+    text-align: center;color: #666;}
+
+.username img{margin-left: 6px;display: block;width: 44px;height: 44px;}
+
+.username span{font-size: 14px;line-height: 14px;color: #666;}
+
+.usershow{float: left;width: 719px;height: auto;padding: 11px 14px;color: #666;
+    min-height: 111px;border: 1px solid #dcdcdc;font-size: 14px}
+
+.page{line-height: 33px;width: 100%;height: 38px;text-align: center;}
+
+.pc{display: inline-block;margin: 0 auto;}
+
+.pc a{width: 28px;height: 32px;color: #CCCCCC;line-height: 32px;border: 1px solid #ccc;
+	font-size: 14px;display: inline-block;margin: 0 2px;text-align: center;float: left;
+	border-radius: 3px;}
+
+.pc .pagenum{border-color: #ed145b;background: #ed145b;color: #fff;}
+
+.form{display: inline-block;vertical-align: top;margin: 0 auto;}
+
+.form span,.form a{display: inline-block;vertical-align: middle;margin: 2px 5px 0;}
+
+.form span{margin-top: 0;}
+
+.ftext{border-radius: 3px;border: 1px solid #ed145b;height: 28px;line-height: 28px;width: 45px;
+    text-align: center;width: 30px;height: 30px;}
+
+.form .go{width: 30px;height: 30px;border-radius: 3px;border: 1px solid #ed145b;background: #ed145b;
+	padding: 0 10px;color: white;margin-right: 2px;line-height: 30px;margin-top: 0;margin-bottom: 5px;}
+
+.record{display: inline-block;vertical-align: middle;line-height: 33px;vertical-align: top;}
+
+.user-consulting{padding: 15px 20px 120px;}
+
+.user-cons-gw{font-size: 14px;color: #000;margin: 0 0 12px;}
+
+.user-cons-gw a{display: inline-block;width: 176px;height: 45px;margin: 0 5px 0 0;
+    vertical-align: -8px;background: url(../img/gooddetail/details-click.png) no-repeat 0 0;}
+
+.user-cons-list{border-top: 1px dashed #e3e3e3;padding: 15px 0;}
+
+.lis-q{display: block;color: #333;font-family: "Microsoft YaHei";font-size: 14px;
+    font-weight: 700;height: 12px;line-height: 11px;padding: 0 0 0 20px;margin: 0 0 5px;
+    background: url(../img/gooddetail/details-q-a.png) no-repeat left top;}
+
+.lis-a{color: #666;font-weight: 400;padding: 0;overflow: hidden;margin: 0;display: block;line-height: 11px;font-size: 14px;}
+
+.lis-a em{float: left;width: 12px;height: 12px;background: url(../img/gooddetail/details-q-a.png) no-repeat left -16px;
+    margin: 6px 0 0;display: inline-block;font-style: normal;}
+
+.lis-a dfn{line-height: 24px;display: inline-block;padding: 0 0 0 10px;float: left;
+    width: 800px;color: #666666;font-style: normal;}
+    
+.notice{width: 100%;height: 450px;text-align: center;}   
+    
+.notice img{width: 100%;height: 297px;}
+
+/*吸顶*/
+.major-tab-box-change{position: fixed;z-index: 1;width: 100%;top: 0;left: 0;border-bottom: 2px solid #000;
+    background-color: #fff;}
+
+.major-tab-change{width: 925px;left: 50%;margin-left: -325px;display: block;
+    height: 40px;background-color: #fff;position: relative;}
+
+.fixd-add-cart{display: none;height: 40px;float: right;text-align: center;line-height: 40px;}
+
+.fixed-cart-app-icon-title{width: 140px;height: 40px;float: left;display: inline-block;
+    vertical-align: middle;margin-right: 5px;}
+
+.fixed-cart-app-icon-title span{float: left;color: #333;height: 40px;line-height: 40px;
+    font-family: "Microsoft YaHei";font-size: 16px;}
+
+.major-r .fixed-cart-app-icon-title a{display: inline-block;width: 76px;height: 40px;padding: 0;background: white;}
+
+.app-small-icon{display: block;float: left;vertical-align: middle;width: 40px;
+    height: 40px;margin-left: 20px;background: url(../img/gooddetail/web-app-icon-small.png) center center no-repeat;}
+
+.fixed-cart-app-icon-title .triangle-icon-down{display: block;float: left;color: #333;
+    font-family: "Microsoft YaHei";font-size: 16px;margin-right: 5px;vertical-align: middle;
+    bottom: 17px;left: 770px;position: absolute;width: 0;height: 0;border-top: 7px solid #6b6b6b;
+    border-left: 7px solid transparent;border-right: 7px solid transparent;}
+
+.fixed-cart-app-icon-title .triangle-icon-up{display: none;float: left;color: #333;line-height: 40px;
+    font-family: "Microsoft YaHei";font-size: 16px;margin-right: 5px;vertical-align: middle;
+    bottom: 17px;left: 770px;position: absolute;width: 0;height: 0;border-top: 7px solid #6b6b6b;
+    border-left: 7px solid transparent;border-right: 7px solid transparent;transform: rotate(180deg);}
+
+.bhp-cart-app-icon{display: none;vertical-align: middle;width: 120px;height: 120px;
+    margin-top: 2px;background: url(../img/gooddetail/kt-app-barcode.png) center center no-repeat;
+    background-size: 100px;background-color: #fff;}
+
+/*.bhp-cart-app-icon{display: none;width: 120px;height: 120px;vertical-align: middle;background: url(../img/gooddetail/kt-app-barcode.png) center center no-repeat;
+				background-size: 100px;background-color: #fff;position: fixed;top: 42px;right: 15%;}*/
+
+.major-r .add-cart{float: right;display: inline-block;vertical-align: middle;width: 126px;
+    background-color: #ed145b;height: 40px;padding: 0;color: #fff;}
+
+.u-flyer{display: block;width: 100px;height: 100px;border-radius: 50px;position: fixed;z-index: 9999;}

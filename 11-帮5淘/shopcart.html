@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="css/shopcart.css" />
+<!--		<link rel="stylesheet" href="css/public.css"/>-->
+		<script type="text/javascript" src="js/jquery-1.12.0.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/shopcart.js" ></script>
+<!--		<script type="text/javascript" src="js/public.js"></script>-->
+	</head>
+	<body>
+		<div id="top">
+			<div class="topCon">
+				
+				<div class="litLogo">
+					<a href="index.html"><span></span>帮海贝，畅享全球品质生活！</a>
+				</div>
+				
+				<div class="login">
+					<a href="#" class="loginQQ"><img src="img/top/QQ.png"/></a>
+					<a href="#" class="loginWeixin"><img src="img/top/微信.png"/></a>
+					<a href="#" class="loginWeibo"><img src="img/top/微博.png"/></a>
+					<a href="login.html" class="user" id="userName">登录</a>
+					<a href="register.html" class="register">注册</a>
+					<a href="#" class="phone"><span></span>手机版</a>
+				</div>
+				
+				<div class="message">
+					<h2>我的消息</h2>
+					<img src="img/top/a.png"/>
+					<span>您还没有消息哦~</span>
+					<a href="#">查看全部</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="code">
+			<a href="#" class="appcode"><img src="img/top/app-code-code.jpg"/></a>
+			<a href="#" class="appcode"><img src="img/top/app-code-code2.jpg"/></a>
+		</div>
+		
+		<div class="shopHead">
+			<div class="carttitle">
+				<a href="index.html" class="logo"><img src="img/shopcart/logo.png"/></a>
+				<a href="#" class="mail"><img src="img/shopcart/mail.png"/></a>
+				<div class="icons">
+					<div class="header-icon1">
+						全网帮助
+						<p>
+							<span>可通过帮海贝可购买淘宝、京东、苏宁等电商的商品，</span><br />
+							<span>享受帮海贝下单立减等超值优惠。真正实现一个账号，购遍全网。</span>
+						</p>
+					</div>
+					<div class="header-icon2">
+						优质服务
+						<p>
+							<span>帮海贝会员顾问全程为您服务，帮您催发货、处理退货，为您向卖家争取最大权益，让您省心省力。</span>帮海贝会员顾问全程为您服务，帮您催发货、处理退货，为您向卖家争取最大权益，让您省心省力。
+						</p>
+					</div>
+					<div class="header-icon3">
+						闪电退款
+						<p>
+							<span>帮海贝支付退货退款。</span><br />
+							<span>选择退超级帮钻3小时内即可到账。</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<h2 class="my-cart">
+				我的购物车
+				<div class="order-due-tip">
+					<span>为了保证商品信息的时效性，超过</span>
+					<span class="clock"></span>
+					<span class="due-day">3天</span>
+					<span>的商品会失效</span>
+				</div>
+			</h2>
+			
+			<p class="cart-content">
+				<span class="porces1">
+					<label class="ziticolo1">我的购物车</label>
+				</span>
+				<span class="porces2">
+					<label class="ziticolo1">确认订单信息</label>
+				</span>
+				<span class="porces3">
+					<label class="ziticolo1">成功提交订单</label>
+				</span>
+			</p>
+		</div>
+		
+		<div class="cart-no-list">
+			<p>购物车空空如也，再去逛逛吧!</p>
+		</div>
+		
+		<div id="footer">
+			<div class="footer-links">
+				<a target="_blank" class="fitem" href="http://www.b5cai.com/">帮5采</a> |<a target="_blank" class="fitem" href="http://www.b5m.com/">帮海贝</a> |<!-- a target="_blank" class="item" href="http://job.b5m.com/">加入我们</a> | --><a target="_blank" class="fitem" href="http://app.b5m.com">移动应用</a> |<a target="_blank" class="fitem" href="http://u.b5m.com">广告联盟</a> |<a target="_blank" class="fitem" href="http://www.b5m.com/agreement.html">使用条款</a> 
+			</div>
+			
+			<div class="footer-copyright">
+				Copyright &copy; 2011-2016&nbsp;<span style="white-space:normal;">上海载和网络科技有限公司</span>. All rights reserved. Powered by 上海载和网络科技有限公司<br />
+		增值电信业务经营许可证：沪B2-20130065号 | 中华人民共和国互联网药品信息服务资格证书（沪）-非经营性-2013-0034 沪卫(中医)网审【2015】10032号 沪ICP备11034776号-3 |        食品流通许可证：SP3101151410301755
+			</div>
+			
+			<div id="footer-public" class="footer-public">
+				<a target="_blank" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20120620142952978">
+					<img src="http://static-web.b5m.com/common/img/shgs.gif" lazy-src="http://static-web.b5m.com/common/img/shgs.gif" alt="上海工商" />
+				</a> 
+				<a id="___szfw_logo___" href="https://search.szfw.org/cert/l/CX20140423003765008027" target="_blank">
+					<img src="http://static-web.b5m.com/common/img/cxwz.png" lazy-src="http://static-web.b5m.com/common/img/cxwz.png" alt="诚信网站" />
+				</a> 
+				<a target="_blank" href="http://www.315online.com.cn/member/315120051.html">
+					<img src="http://static-web.b5m.com/common/img/315.gif" lazy-src="http://static-web.b5m.com/common/img/315.gif" alt="网站交易保障中心安全网购门户" />
+				</a> 
+				<a target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=e14050531011548491ouit000000&ct=df&a=1&pa=0.40660188405314746">
+					<img src="http://static-web.b5m.com/common/img/cnnic.png" lazy-src="http://static-web.b5m.com/common/img/cnnic.png" alt="网站交易保障中心安全网购门户" />
+				</a> 
+				<a href="http://si.trustutn.org/info?sn=561150314012083330700" target="_blank">
+					<img src="http://static-web.b5m.com/common/img/bottom_small_img.png" lazy-src="http://static-web.b5m.com/common/img/bottom_small_img.png" alt="实名认证" title="实名认证" />
+				</a> 
+				<a rel="nofollow" href="http://www.anquan.org/authenticate/cert/?site=www.b5m.com&at=business&mps=____" target="_blank">
+					<img src="http://cdnweb.b5m.com/web/cmsphp/static_image/4b1e9f20bbf8728ac3a01e7526270a26.png" height="40" width="106" />
+				</a>
+				<a href="http://www.zx110.org/picp?sn=310104031210" style="display:inline;zoom:1;width:150px;height:52px;position:relative;text-decoration:none;">
+					<img src="http://cdn01.b5mcdn.com/common/img/picp_bg.png" lazy-src="http://cdn01.b5mcdn.com/common/img/picp_bg.png" alt="沪公网备" style="display:inline;" border="0" />
+					<span align="center" style="display:none;font-size:11px;color:#001b75;padding:0;margin:0;text-decoration:none;top:30px;left:55px;position:absolute;cursor:pointer;">310115100001576</span>
+				</a> 
+			</div>
+		</div>
+		
+		<div class="rightbar">
+			<div class="barlist">
+				<ul class="barlist-ul">
+					<li class="bar-item">
+						<div class="bar-item-service"></div>
+						<div class="bar-service">
+							小帮帮资讯
+							<span></span>
+						</div>
+					</li>
+					<li class="bar-item">
+						<div class="bar-item-weixin"></div>
+						<div class="bar-weixin">
+							<div class="weixin-code"></div>
+							<p class="mobile-text-bg">关注享更多优惠信息</p>
+							<span></span>
+						</div>
+					</li>
+					<li class="bar-item-cart">
+						<a href="#">
+							<div class="bar-item-cart-logo"></div>
+							<div class="bar-item-txt">
+								购物车
+								<i class="cart-num">0</i>
+							</div>
+						</a>
+					</li>
+					<li class="bar-item">
+						<div class="bar-item-record"></div>
+						<a href="#">
+							<div class="bar-item-tip">
+								我的收藏
+								<span></span>
+							</div>
+						</a>
+					</li>
+					<li class="bar-item">
+						<div class="bar-item-code"></div>
+						<div class="bar-item-tip">
+							<div class="bar-app-code"></div>
+							<p class="mobile-text-bg">下载APP 享更多优惠</p>
+							<span></span>
+						</div>
+					</li>
+					<li class="bar-item-top">
+						<div class="bar-item-top-logo"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="successbox">
+			
+		</div>
+		<div class="success">
+				<img src="img/gooddetail/avatar130.png"/>
+				<span>结算成功</span>
+				<a href="index.html" class="con-buy">继续剁手</a>
+				<a href="javascript:" class="close">关闭</a>
+		</div>
+	</body>
+</html>
